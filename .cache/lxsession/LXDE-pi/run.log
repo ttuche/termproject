@@ -105,7 +105,7 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: options.vala:107: Create build-in Clipboard
 ** Message: main.vala:442: Check keymap_mode (null)
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-cAAERsJxRslT/agent.641; export SSH_AUTH_SOCK;
+SSH_AUTH_SOCK=/tmp/ssh-mTOOREPJAD32/agent.641; export SSH_AUTH_SOCK;
 SSH_AGENT_PID=643; export SSH_AGENT_PID;
 echo Agent pid 643;
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
@@ -117,182 +117,58 @@ Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.
 ** Message: Connecting ...
 ** Message: Status changed to down
 
-** (lxpanel:635): CRITICAL **: dhcpcd_open: Resource temporarily unavailable
+** (lxpanel:634): CRITICAL **: dhcpcd_open: Resource temporarily unavailable
 Unit pt-device-manager.service could not be found.
 
-** (lxpanel:635): WARNING **: Battery 0 not found
+** (lxpanel:634): WARNING **: Battery 0 not found
 
-** (lxpanel:635): WARNING **: lxpanel: can't load ptbatt plugin
-** Message: bt: Name org.bluez unowned on DBus
-** Message: va: Name org.bluez unowned on DBus
+** (lxpanel:634): WARNING **: lxpanel: can't load ptbatt plugin
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.11.5
 ** Message: Status changed to connected
-** Message: wlan1: Associated with SwiPhone
-** Message: wlan1: Configured 172.20.10.7/28
+** Message: wlan0: Associated with Robotcode
+** Message: wlan0: Configured 192.168.168.79/24
 ** Message: eth0: Link is down
-** Message: wlan0: Disassociated from SwiPhone
-** Message: wlan1: WPA status connected
-** Message: wlan1: Received scan results
+** Message: wlan1: Not associated
 ** Message: wlan0: WPA status connected
 ** Message: wlan0: Received scan results
+** Message: wlan1: WPA status connected
+** Message: wlan1: Received scan results
+** Message: bt: Name org.bluez unowned on DBus
+** Message: va: Name org.bluez unowned on DBus
 
 ** (zenity:653): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-** (zenity:654): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** (zenity:656): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
-** Message: wlan1: Disassociated from SwiPhone
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Disassociated from Robotcode
 ** Message: Status changed to disconnected
-** Message: wlan1: Received scan results
-** Message: wlan1: Associated with SwiPhone
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Associated with Robotcode
 ** Message: Status changed to connecting
-** Message: wlan1: Configured 172.20.10.7/28
+** Message: wlan0: Configured 192.168.168.79/24
 ** Message: Status changed to connected
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Disassociated from SwiPhone
-** Message: Status changed to disconnected
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Associated with SwiPhone
-** Message: Status changed to connecting
-** Message: wlan1: Configured 172.20.10.7/28
-** Message: Status changed to connected
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
-** Message: wlan1: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results

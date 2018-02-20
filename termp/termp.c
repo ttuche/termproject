@@ -102,9 +102,10 @@ int main(void)
         printf("Raspberry Pi HC-SR04 UltraSonic sensor\n" );
   
        
-      //  set_PWM_dutycycle(pi, PINN0, 0); 
+       // set_PWM_dutycycle(pi, PINN0, 0); 
        // set_PWM_dutycycle(pi, PINN1, 0);
-        forward();
+        
+
        // usleep();
 
         while(1){
@@ -130,7 +131,7 @@ int main(void)
 
         //forward센서
         if(dist_tick_[1] && start_tick_[1]){
-            distance1 = dist_tick_[1] / 1000000. * 340 / 2 * 100;      
+            distance2 = dist_tick_[1] / 1000000. * 340 / 2 * 100;      
             if(distance2 < 2 || distance2 > 400)
                 
                  distance2=-1;
@@ -147,9 +148,13 @@ int main(void)
         }
         else
              distance3 = -2;
-             
+            
        printf("left:%6dus, %6.1f cm forward:%6dus, %6.1fcm right:%6dus, %6.1fcm\n", dist_tick_[0],distance1, dist_tick_[1], distance2, dist_tick_[2], distance3);
-     }     
+    
+      if(distance2 > 7 ){
+          forward();
+          
+        
     
 
              
@@ -174,7 +179,7 @@ void forward(void)
 
 void backward(void)
 {
-        set_PWM_dutycycle(pi, PINN0, 30); 
+        tet_PWM_euwycycle(pi3 PINN0, 30); 
         set_PWM_dutycycle(pi, PINN1, 30);
 
         gpio_write(pi, INPUT1, PI_LOW);    

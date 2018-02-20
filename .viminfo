@@ -12,13 +12,19 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1519039311,,"q"
+|2,0,1519092386,,"q"
+:w
+|2,0,1519092385,,"w"
+:wq!
+|2,0,1519091861,,"wq!"
+:wq
+|2,0,1519091857,,"wq"
+:!
+|2,0,1519041224,,"!"
+:q!
+|2,0,1519039712,,"q!"
 :w test.c
 |2,0,1519039310,,"w test.c"
-:wq!
-|2,0,1519039135,,"wq!"
-:w
-|2,0,1519036135,,"w"
 :mv 
 |2,0,1519035566,,"mv "
 :w termp.c
@@ -31,8 +37,6 @@
 |2,0,1519030036,,"ggvG="
 :ggVG=
 |2,0,1519029887,,"ggVG="
-:q!
-|2,0,1519029863,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -46,281 +50,306 @@
 "0	LINE	0
 	        gpio_write(pi, INPUT1, PI_HIGH);    
 |3,0,0,1,1,0,1519033293,"        gpio_write(pi, INPUT1, PI_HIGH);    "
+"r	CHAR	0
+	d4frwbrt€k342gwf42e2w
+|3,0,27,0,1,0,1519092039,"d4frwbrt€k342gwf42e2w"
 ""-	CHAR	0
 	)
 |3,1,36,0,1,0,1519039111,")"
 
 # File marks:
-'0  1  0  ~/robotcode/robotcode/termp.c
-|4,48,1,0,1519039311,"~/robotcode/robotcode/termp.c"
-'1  80  7  ~/robotcode/robotcode/termp.c
-|4,49,80,7,1519039135,"~/robotcode/robotcode/termp.c"
-'2  80  7  ~/robotcode/robotcode/termp.c
-|4,50,80,7,1519039135,"~/robotcode/robotcode/termp.c"
-'3  107  6  ~/robotcode/robotcode/termp.c
-|4,51,107,6,1519038975,"~/robotcode/robotcode/termp.c"
-'4  107  6  ~/robotcode/robotcode/termp.c
-|4,52,107,6,1519038975,"~/robotcode/robotcode/termp.c"
-'5  107  6  ~/robotcode/robotcode/termp.c
-|4,53,107,6,1519038975,"~/robotcode/robotcode/termp.c"
-'6  107  6  ~/robotcode/robotcode/termp.c
-|4,54,107,6,1519038975,"~/robotcode/robotcode/termp.c"
-'7  171  0  ~/robotcode/robotcode/termp.c
-|4,55,171,0,1519038764,"~/robotcode/robotcode/termp.c"
-'8  174  0  ~/robotcode/robotcode/termp.c
-|4,56,174,0,1519038764,"~/robotcode/robotcode/termp.c"
-'9  171  0  ~/robotcode/robotcode/termp.c
-|4,57,171,0,1519038764,"~/robotcode/robotcode/termp.c"
+'0  158  3  ~/termp/termp.c
+|4,48,158,3,1519092386,"~/termp/termp.c"
+'1  157  8  ~/termp/termp.c
+|4,49,157,8,1519091861,"~/termp/termp.c"
+'2  160  1  ~/termp/termp.c
+|4,50,160,1,1519091861,"~/termp/termp.c"
+'3  157  20  ~/termp/termp.c
+|4,51,157,20,1519041422,"~/termp/termp.c"
+'4  160  13  ~/termp/termp.c
+|4,52,160,13,1519041422,"~/termp/termp.c"
+'5  157  28  ~/termp/termp.c
+|4,53,157,28,1519041295,"~/termp/termp.c"
+'6  157  28  ~/termp/termp.c
+|4,54,157,28,1519041295,"~/termp/termp.c"
+'7  159  11  ~/termp/termp.c
+|4,55,159,11,1519041295,"~/termp/termp.c"
+'8  159  11  ~/termp/termp.c
+|4,56,159,11,1519041295,"~/termp/termp.c"
+'9  157  21  ~/termp/termp.c
+|4,57,157,21,1519041169,"~/termp/termp.c"
 
 # Jumplist (newest first):
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519039311,"~/robotcode/robotcode/termp.c"
--'  80  7  ~/robotcode/robotcode/termp.c
-|4,39,80,7,1519039135,"~/robotcode/robotcode/termp.c"
--'  80  7  ~/robotcode/robotcode/termp.c
-|4,39,80,7,1519039135,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519039075,"~/robotcode/robotcode/termp.c"
--'  107  6  ~/robotcode/robotcode/termp.c
-|4,39,107,6,1519038975,"~/robotcode/robotcode/termp.c"
--'  107  6  ~/robotcode/robotcode/termp.c
-|4,39,107,6,1519038975,"~/robotcode/robotcode/termp.c"
--'  107  6  ~/robotcode/robotcode/termp.c
-|4,39,107,6,1519038975,"~/robotcode/robotcode/termp.c"
--'  171  0  ~/robotcode/robotcode/termp.c
-|4,39,171,0,1519038764,"~/robotcode/robotcode/termp.c"
--'  174  0  ~/robotcode/robotcode/termp.c
-|4,39,174,0,1519038764,"~/robotcode/robotcode/termp.c"
--'  171  0  ~/robotcode/robotcode/termp.c
-|4,39,171,0,1519038764,"~/robotcode/robotcode/termp.c"
--'  174  0  ~/robotcode/robotcode/termp.c
-|4,39,174,0,1519038764,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038630,"~/robotcode/robotcode/termp.c"
--'  155  12  ~/robotcode/robotcode/termp.c
-|4,39,155,12,1519038515,"~/robotcode/robotcode/termp.c"
--'  159  4  ~/robotcode/robotcode/termp.c
-|4,39,159,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  158  4  ~/robotcode/robotcode/termp.c
-|4,39,158,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  162  4  ~/robotcode/robotcode/termp.c
-|4,39,162,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  155  12  ~/robotcode/robotcode/termp.c
-|4,39,155,12,1519038515,"~/robotcode/robotcode/termp.c"
--'  159  4  ~/robotcode/robotcode/termp.c
-|4,39,159,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  158  4  ~/robotcode/robotcode/termp.c
-|4,39,158,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  162  4  ~/robotcode/robotcode/termp.c
-|4,39,162,4,1519038515,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038505,"~/robotcode/robotcode/termp.c"
--'  168  0  ~/robotcode/robotcode/termp.c
-|4,39,168,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  172  0  ~/robotcode/robotcode/termp.c
-|4,39,172,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  175  0  ~/robotcode/robotcode/termp.c
-|4,39,175,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  168  0  ~/robotcode/robotcode/termp.c
-|4,39,168,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  172  0  ~/robotcode/robotcode/termp.c
-|4,39,172,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  171  0  ~/robotcode/robotcode/termp.c
-|4,39,171,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  175  0  ~/robotcode/robotcode/termp.c
-|4,39,175,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  175  0  ~/robotcode/robotcode/termp.c
-|4,39,175,0,1519038465,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038458,"~/robotcode/robotcode/termp.c"
--'  162  0  ~/robotcode/robotcode/termp.c
-|4,39,162,0,1519038433,"~/robotcode/robotcode/termp.c"
--'  162  0  ~/robotcode/robotcode/termp.c
-|4,39,162,0,1519038433,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038398,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  131  0  ~/robotcode/robotcode/termp.c
-|4,39,131,0,1519038395,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038384,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038379,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  152  1  ~/robotcode/robotcode/termp.c
-|4,39,152,1,1519038375,"~/robotcode/robotcode/termp.c"
--'  153  22  ~/robotcode/robotcode/termp.c
-|4,39,153,22,1519038356,"~/robotcode/robotcode/termp.c"
--'  153  22  ~/robotcode/robotcode/termp.c
-|4,39,153,22,1519038356,"~/robotcode/robotcode/termp.c"
--'  153  22  ~/robotcode/robotcode/termp.c
-|4,39,153,22,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  158  18  ~/robotcode/robotcode/termp.c
-|4,39,158,18,1519038356,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038270,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038243,"~/robotcode/robotcode/termp.c"
--'  1  0  ~/robotcode/robotcode/termp.c
-|4,39,1,0,1519038236,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038233,"~/robotcode/robotcode/termp.c"
--'  156  3  ~/robotcode/robotcode/termp.c
-|4,39,156,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  160  3  ~/robotcode/robotcode/termp.c
-|4,39,160,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  161  3  ~/robotcode/robotcode/termp.c
-|4,39,161,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  158  3  ~/robotcode/robotcode/termp.c
-|4,39,158,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  156  3  ~/robotcode/robotcode/termp.c
-|4,39,156,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  162  3  ~/robotcode/robotcode/termp.c
-|4,39,162,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  160  3  ~/robotcode/robotcode/termp.c
-|4,39,160,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  161  3  ~/robotcode/robotcode/termp.c
-|4,39,161,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  159  3  ~/robotcode/robotcode/termp.c
-|4,39,159,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  163  3  ~/robotcode/robotcode/termp.c
-|4,39,163,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  165  3  ~/robotcode/robotcode/termp.c
-|4,39,165,3,1519038207,"~/robotcode/robotcode/termp.c"
--'  164  0  ~/robotcode/robotcode/termp.c
-|4,39,164,0,1519038166,"~/robotcode/robotcode/termp.c"
--'  157  0  ~/robotcode/robotcode/termp.c
-|4,39,157,0,1519038166,"~/robotcode/robotcode/termp.c"
+-'  158  3  ~/termp/termp.c
+|4,39,158,3,1519092386,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519092011,"~/termp/termp.c"
+-'  157  8  ~/termp/termp.c
+|4,39,157,8,1519091861,"~/termp/termp.c"
+-'  160  1  ~/termp/termp.c
+|4,39,160,1,1519091861,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519091756,"~/termp/termp.c"
+-'  160  13  ~/termp/termp.c
+|4,39,160,13,1519041422,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519041304,"~/termp/termp.c"
+-'  159  11  ~/termp/termp.c
+|4,39,159,11,1519041295,"~/termp/termp.c"
+-'  159  11  ~/termp/termp.c
+|4,39,159,11,1519041295,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519041189,"~/termp/termp.c"
+-'  159  14  ~/termp/termp.c
+|4,39,159,14,1519041169,"~/termp/termp.c"
+-'  157  0  ~/termp/termp.c
+|4,39,157,0,1519040499,"~/termp/termp.c"
+-'  157  0  ~/termp/termp.c
+|4,39,157,0,1519040499,"~/termp/termp.c"
+-'  157  0  ~/termp/termp.c
+|4,39,157,0,1519040499,"~/termp/termp.c"
+-'  157  0  ~/termp/termp.c
+|4,39,157,0,1519040499,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519040291,"~/termp/termp.c"
+-'  116  1  ~/termp/termp.c
+|4,39,116,1,1519040236,"~/termp/termp.c"
+-'  115  1  ~/termp/termp.c
+|4,39,115,1,1519040236,"~/termp/termp.c"
+-'  116  1  ~/termp/termp.c
+|4,39,116,1,1519040236,"~/termp/termp.c"
+-'  115  1  ~/termp/termp.c
+|4,39,115,1,1519040236,"~/termp/termp.c"
+-'  116  1  ~/termp/termp.c
+|4,39,116,1,1519040236,"~/termp/termp.c"
+-'  115  1  ~/termp/termp.c
+|4,39,115,1,1519040236,"~/termp/termp.c"
+-'  116  1  ~/termp/termp.c
+|4,39,116,1,1519040236,"~/termp/termp.c"
+-'  115  1  ~/termp/termp.c
+|4,39,115,1,1519040236,"~/termp/termp.c"
+-'  116  1  ~/termp/termp.c
+|4,39,116,1,1519040236,"~/termp/termp.c"
+-'  115  1  ~/termp/termp.c
+|4,39,115,1,1519040236,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519040208,"~/termp/termp.c"
+-'  150  20  ~/termp/termp.c
+|4,39,150,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  150  20  ~/termp/termp.c
+|4,39,150,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  150  20  ~/termp/termp.c
+|4,39,150,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  150  20  ~/termp/termp.c
+|4,39,150,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  150  20  ~/termp/termp.c
+|4,39,150,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  149  20  ~/termp/termp.c
+|4,39,149,20,1519040162,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519040113,"~/termp/termp.c"
+-'  112  0  ~/termp/termp.c
+|4,39,112,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  112  0  ~/termp/termp.c
+|4,39,112,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  112  0  ~/termp/termp.c
+|4,39,112,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  112  0  ~/termp/termp.c
+|4,39,112,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  112  0  ~/termp/termp.c
+|4,39,112,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  111  0  ~/termp/termp.c
+|4,39,111,0,1519039984,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519039943,"~/termp/termp.c"
+-'  151  3  ~/termp/termp.c
+|4,39,151,3,1519039937,"~/termp/termp.c"
+-'  151  3  ~/termp/termp.c
+|4,39,151,3,1519039937,"~/termp/termp.c"
+-'  151  3  ~/termp/termp.c
+|4,39,151,3,1519039937,"~/termp/termp.c"
+-'  151  3  ~/termp/termp.c
+|4,39,151,3,1519039937,"~/termp/termp.c"
+-'  151  3  ~/termp/termp.c
+|4,39,151,3,1519039937,"~/termp/termp.c"
+-'  150  3  ~/termp/termp.c
+|4,39,150,3,1519039937,"~/termp/termp.c"
+-'  150  3  ~/termp/termp.c
+|4,39,150,3,1519039937,"~/termp/termp.c"
+-'  150  3  ~/termp/termp.c
+|4,39,150,3,1519039937,"~/termp/termp.c"
+-'  150  3  ~/termp/termp.c
+|4,39,150,3,1519039937,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519039745,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519039712,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519039703,"~/termp/termp.c"
+-'  1  0  ~/termp/termp.c
+|4,39,1,0,1519039593,"~/termp/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
+-'  1  17  ~/robotcode/robotcode/termp.c
+|4,39,1,17,1519039562,"~/robotcode/robotcode/termp.c"
 
 # History of marks within files (newest to oldest):
 
+> ~/termp/termp.c
+	*	1519092385	0
+	"	158	3
+	^	158	4
+	.	157	4
+	+	131	1
+	+	151	3
+	+	131	0
+	+	134	20
+	+	151	2
+	+	157	32
+	+	157	75
+	+	157	28
+	+	154	6
+	+	107	18
+	+	108	0
+	+	105	6
+	+	107	8
+	+	157	21
+	+	154	0
+	+	157	21
+	+	154	25
+	+	157	0
+	+	156	10
+	+	157	29
+	+	157	21
+	+	157	31
+	+	157	7
+	+	157	24
+	+	157	17
+	+	157	21
+	+	182	28
+	+	157	6
+	+	157	4
+
 > ~/robotcode/robotcode/termp.c
-	*	1519039311	0
-	"	1	0
-	^	80	8
-	.	156	0
+	*	1519039561	0
+	"	1	17
+	^	131	0
+	.	168	0
 	+	40	5
 	+	41	5
-	+	171	36
-	+	172	36
+	+	178	36
+	+	179	36
 	+	105	7
 	+	106	8
-	+	171	37
-	+	172	37
+	+	178	37
+	+	179	37
 	+	108	37
 	+	108	20
 	+	107	14
 	+	108	8
 	+	107	11
-	+	194	38
-	+	195	38
-	+	194	38
-	+	195	38
+	+	201	38
+	+	202	38
+	+	201	38
+	+	202	38
 	+	108	16
 	+	107	8
 	+	108	8
-	+	153	4
-	+	153	24
-	+	153	19
-	+	153	4
+	+	160	0
+	+	157	20
+	+	159	15
 	+	158	0
-	+	157	18
-	+	161	0
-	+	152	0
-	+	158	0
-	+	153	13
-	+	155	13
-	+	133	37
-	+	153	4
-	+	152	4
-	+	154	20
-	+	136	29
-	+	155	26
-	+	107	7
-	+	154	0
-	+	156	0
+	+	165	0
+	+	164	18
+	+	168	0
 
 > ~/robotcode/robotcode/home
 	*	1519036137	0
