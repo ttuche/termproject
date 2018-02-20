@@ -150,14 +150,19 @@ int main(void)
       {
          stop();
  //       time_sleep(0.1);
-         if(error_R>0 && error_R <4)
-             right();
-         else if(error_L >0 && error_L<4)
+         if(error_R>0)
              left();
+         else if(error_L >0)
+             right();
       }
     else
-    {
-        forward();      
+    {   
+        forward();
+    
+       if( error_R>2.5)
+           set_PWM_dutycycle(pi,PINN1,39);
+       if( error_L>2.5)
+           set_PWM_dutycycle(pi,PINN1,37);
     }
         }            
       pigpio_stop(pi);
