@@ -98,31 +98,37 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:76: Launching lxpanel 
 ** Message: app.vala:76: Launching pcmanfm 
 
-** (lxsession:553): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+** (lxsession:539): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
 
-** (lxsession:553): WARNING **: app.vala:87: Error when launching xscreensaver
+** (lxsession:539): WARNING **: app.vala:87: Error when launching xscreensaver
 ** Message: app.vala:76: Launching point-rpi 
 ** Message: options.vala:107: Create build-in Clipboard
 ** Message: main.vala:442: Check keymap_mode (null)
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-mTOOREPJAD32/agent.641; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=643; export SSH_AGENT_PID;
-echo Agent pid 643;
-** Message: x-terminal-emulator has very limited support, consider choose another terminal
+SSH_AUTH_SOCK=/tmp/ssh-NOyJRyvvypjD/agent.628; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=630; export SSH_AGENT_PID;
+echo Agent pid 630;
 ** Message: app.vala:130: point-rpi exit with this type of exit: 0
 ** Message: app.vala:139: Exit normal, don't reload
 ** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 ** Message: Connecting ...
 ** Message: Status changed to down
 
-** (lxpanel:634): CRITICAL **: dhcpcd_open: Resource temporarily unavailable
+** (lxpanel:622): CRITICAL **: dhcpcd_open: Inappropriate ioctl for device
 Unit pt-device-manager.service could not be found.
 
-** (lxpanel:634): WARNING **: Battery 0 not found
+** (lxpanel:622): WARNING **: Battery 0 not found
 
-** (lxpanel:634): WARNING **: lxpanel: can't load ptbatt plugin
+** (lxpanel:622): WARNING **: lxpanel: can't load ptbatt plugin
+** Message: bt: Name org.bluez unowned on DBus
+** Message: va: Name org.bluez unowned on DBus
+
+** (zenity:638): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (zenity:639): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.11.5
 ** Message: Status changed to connected
@@ -134,36 +140,8 @@ Unit pt-device-manager.service could not be found.
 ** Message: wlan0: Received scan results
 ** Message: wlan1: WPA status connected
 ** Message: wlan1: Received scan results
-** Message: bt: Name org.bluez unowned on DBus
-** Message: va: Name org.bluez unowned on DBus
-
-** (zenity:653): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-** (zenity:656): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Robotcode
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Robotcode
-** Message: Status changed to connecting
-** Message: wlan0: Configured 192.168.168.79/24
-** Message: Status changed to connected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results

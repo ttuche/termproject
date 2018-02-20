@@ -28,9 +28,6 @@
 
 
 
-
-
-
 int i=0;
 int pi;
 int default_range = 100;
@@ -68,9 +65,8 @@ int main(void)
 
         set_PWM_range(pi, PINN0, default_range); 
         set_PWM_range(pi, PINN1, default_range); 
-        
-       
-        
+            
+      
 
         //모터 pin 설정
         set_mode(pi, INPUT1, PI_OUTPUT);   set_mode(pi, INPUT2, PI_OUTPUT); 
@@ -83,11 +79,6 @@ int main(void)
         set_mode(pi, TRIG_PINN0, PI_OUTPUT);  set_mode(pi, ECHO_PINN0, PI_INPUT);
         set_mode(pi, TRIG_PINN1, PI_OUTPUT);  set_mode(pi, ECHO_PINN1, PI_INPUT);
         set_mode(pi, TRIG_PINN2, PI_OUTPUT);  set_mode(pi, ECHO_PINN2, PI_INPUT);
-
-
-
-
-
 
 
         callback(pi, ECHO_PINN0, EITHER_EDGE, cb_func_echo0); 
@@ -103,9 +94,7 @@ int main(void)
   
        
        // set_PWM_dutycycle(pi, PINN0, 0); 
-       // set_PWM_dutycycle(pi, PINN1, 0);
-        
-
+       // set_PWM_dutycycle(pi, PINN1, 0);      
        // usleep();
 
         while(1){
@@ -150,14 +139,27 @@ int main(void)
              distance3 = -2;
             
        printf("left:%6dus, %6.1f cm forward:%6dus, %6.1fcm right:%6dus, %6.1fcm\n", dist_tick_[0],distance1, dist_tick_[1], distance2, dist_tick_[2], distance3);
-    
-      if(distance2 > 7 ){
-          forward();
           
-        
-    
+      
+      float dis=7.5;
+  //  float dis2=8;
+      float error_L = distance1 - dis; 
+      float error_R = distance3 - dis;
 
-             
+      if(distance2 < 10)    
+      {
+         stop();
+ //       time_sleep(0.1);
+         if(error_R>0 && error_R <4)
+             right();
+         else if(error_L >0 && error_L<4)
+             left();
+      }
+    else
+    {
+        forward();      
+    }
+        }            
       pigpio_stop(pi);
       return 0;
 }
@@ -169,7 +171,6 @@ void forward(void)
 {
        set_PWM_dutycycle(pi, PINN0,f_right); 
        set_PWM_dutycycle(pi, PINN1,f_left); 
-
         
         gpio_write(pi, INPUT1, PI_HIGH);    
         gpio_write(pi, INPUT2, PI_LOW); 
@@ -179,7 +180,7 @@ void forward(void)
 
 void backward(void)
 {
-        tet_PWM_euwycycle(pi3 PINN0, 30); 
+        set_PWM_dutycycle(pi, PINN0, 30); 
         set_PWM_dutycycle(pi, PINN1, 30);
 
         gpio_write(pi, INPUT1, PI_LOW);    
