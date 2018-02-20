@@ -11,16 +11,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1519123120,,"q"
 :wq!
-|2,0,1519109249,,"wq!"
+|2,0,1519119087,,"wq!"
+:w
+|2,0,1519118929,,"w"
+:wq
+|2,0,1519115038,,"wq"
+:wwq
+|2,0,1519115035,,"wwq"
+:w termp3.c
+|2,0,1519111651,,"w termp3.c"
+:w termp2.c
+|2,0,1519111600,,"w termp2.c"
 :q!
 |2,0,1519103389,,"q!"
-:q
-|2,0,1519103042,,"q"
-:wq
-|2,0,1519100115,,"wq"
-:w
-|2,0,1519092385,,"w"
 :!
 |2,0,1519041224,,"!"
 :w test.c
@@ -47,246 +53,352 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        gpio_write(pi, INPUT1, PI_HIGH);    
-|3,0,0,1,1,0,1519033293,"        gpio_write(pi, INPUT1, PI_HIGH);    "
+""0	LINE	0
+	           set_PWM_dutycycle(pi,PINN1,20); 
+|3,1,0,1,1,0,1519115803,"           set_PWM_dutycycle(pi,PINN1,20); "
 "r	CHAR	0
 	d4frwbrt€k342gwf42e2w
 |3,0,27,0,1,0,1519092039,"d4frwbrt€k342gwf42e2w"
-""-	CHAR	0
-	)
-|3,1,36,0,1,0,1519039111,")"
+"-	CHAR	0
+	}
+|3,0,36,0,1,0,1519115483,"}"
 
 # File marks:
-'0  156  13  ~/termp/termp.c
-|4,48,156,13,1519109249,"~/termp/termp.c"
-'1  165  14  ~/termp/termp.c
-|4,49,165,14,1519109103,"~/termp/termp.c"
-'2  165  14  ~/termp/termp.c
-|4,50,165,14,1519109103,"~/termp/termp.c"
-'3  151  0  ~/termp/termp.c
-|4,51,151,0,1519108908,"~/termp/termp.c"
-'4  151  0  ~/termp/termp.c
-|4,52,151,0,1519108908,"~/termp/termp.c"
-'5  151  0  ~/termp/termp.c
-|4,53,151,0,1519108908,"~/termp/termp.c"
-'6  151  0  ~/termp/termp.c
-|4,54,151,0,1519108908,"~/termp/termp.c"
-'7  156  19  ~/termp/termp.c
-|4,55,156,19,1519108508,"~/termp/termp.c"
-'8  156  19  ~/termp/termp.c
-|4,56,156,19,1519108508,"~/termp/termp.c"
-'9  156  19  ~/termp/termp.c
-|4,57,156,19,1519108508,"~/termp/termp.c"
+'0  180  6  ~/termp/termp2.c
+|4,48,180,6,1519123120,"~/termp/termp2.c"
+'1  182  0  ~/termp/termp2.c
+|4,49,182,0,1519119199,"~/termp/termp2.c"
+'2  182  0  ~/termp/termp2.c
+|4,50,182,0,1519119199,"~/termp/termp2.c"
+'3  179  5  ~/termp/termp2.c
+|4,51,179,5,1519119088,"~/termp/termp2.c"
+'4  179  5  ~/termp/termp2.c
+|4,52,179,5,1519119088,"~/termp/termp2.c"
+'5  179  5  ~/termp/termp2.c
+|4,53,179,5,1519119088,"~/termp/termp2.c"
+'6  179  5  ~/termp/termp2.c
+|4,54,179,5,1519119088,"~/termp/termp2.c"
+'7  180  4  ~/termp/termp2.c
+|4,55,180,4,1519119047,"~/termp/termp2.c"
+'8  180  4  ~/termp/termp2.c
+|4,56,180,4,1519119047,"~/termp/termp2.c"
+'9  180  4  ~/termp/termp2.c
+|4,57,180,4,1519119047,"~/termp/termp2.c"
 
 # Jumplist (newest first):
--'  156  13  ~/termp/termp.c
-|4,39,156,13,1519109249,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519109172,"~/termp/termp.c"
--'  165  14  ~/termp/termp.c
-|4,39,165,14,1519109103,"~/termp/termp.c"
--'  165  14  ~/termp/termp.c
-|4,39,165,14,1519109103,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519109067,"~/termp/termp.c"
--'  151  0  ~/termp/termp.c
-|4,39,151,0,1519108908,"~/termp/termp.c"
--'  151  0  ~/termp/termp.c
-|4,39,151,0,1519108908,"~/termp/termp.c"
--'  151  0  ~/termp/termp.c
-|4,39,151,0,1519108908,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519108568,"~/termp/termp.c"
--'  156  19  ~/termp/termp.c
-|4,39,156,19,1519108508,"~/termp/termp.c"
--'  156  19  ~/termp/termp.c
-|4,39,156,19,1519108508,"~/termp/termp.c"
--'  156  19  ~/termp/termp.c
-|4,39,156,19,1519108508,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519107981,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519107922,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  168  21  ~/termp/termp.c
-|4,39,168,21,1519104217,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519103446,"~/termp/termp.c"
--'  156  17  ~/termp/termp.c
-|4,39,156,17,1519103442,"~/termp/termp.c"
--'  156  17  ~/termp/termp.c
-|4,39,156,17,1519103442,"~/termp/termp.c"
--'  156  17  ~/termp/termp.c
-|4,39,156,17,1519103442,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519103405,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  171  0  ~/termp/termp.c
-|4,39,171,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519103389,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519103312,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  207  0  ~/termp/termp.c
-|4,39,207,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  202  0  ~/termp/termp.c
-|4,39,202,0,1519103042,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519102818,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  152  2  ~/termp/termp.c
-|4,39,152,2,1519102374,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519102348,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  179  0  ~/termp/termp.c
-|4,39,179,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  174  0  ~/termp/termp.c
-|4,39,174,0,1519102122,"~/termp/termp.c"
--'  1  0  ~/termp/termp.c
-|4,39,1,0,1519102012,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  167  7  ~/termp/termp.c
-|4,39,167,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  162  7  ~/termp/termp.c
-|4,39,162,7,1519101984,"~/termp/termp.c"
--'  166  0  ~/termp/termp.c
-|4,39,166,0,1519101971,"~/termp/termp.c"
+-'  180  6  ~/termp/termp2.c
+|4,39,180,6,1519123120,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519123081,"~/termp/termp2.c"
+-'  182  0  ~/termp/termp2.c
+|4,39,182,0,1519119199,"~/termp/termp2.c"
+-'  182  0  ~/termp/termp2.c
+|4,39,182,0,1519119199,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519119107,"~/termp/termp2.c"
+-'  179  5  ~/termp/termp2.c
+|4,39,179,5,1519119088,"~/termp/termp2.c"
+-'  179  5  ~/termp/termp2.c
+|4,39,179,5,1519119088,"~/termp/termp2.c"
+-'  179  5  ~/termp/termp2.c
+|4,39,179,5,1519119088,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519119065,"~/termp/termp2.c"
+-'  180  4  ~/termp/termp2.c
+|4,39,180,4,1519119047,"~/termp/termp2.c"
+-'  180  4  ~/termp/termp2.c
+|4,39,180,4,1519119047,"~/termp/termp2.c"
+-'  180  4  ~/termp/termp2.c
+|4,39,180,4,1519119047,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519118957,"~/termp/termp2.c"
+-'  181  7  ~/termp/termp2.c
+|4,39,181,7,1519118930,"~/termp/termp2.c"
+-'  181  7  ~/termp/termp2.c
+|4,39,181,7,1519118930,"~/termp/termp2.c"
+-'  181  7  ~/termp/termp2.c
+|4,39,181,7,1519118930,"~/termp/termp2.c"
+-'  179  46  ~/termp/termp2.c
+|4,39,179,46,1519118930,"~/termp/termp2.c"
+-'  181  7  ~/termp/termp2.c
+|4,39,181,7,1519118930,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519118200,"~/termp/termp2.c"
+-'  180  0  ~/termp/termp2.c
+|4,39,180,0,1519118175,"~/termp/termp2.c"
+-'  179  0  ~/termp/termp2.c
+|4,39,179,0,1519118175,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519118109,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  179  17  ~/termp/termp2.c
+|4,39,179,17,1519118078,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  178  17  ~/termp/termp2.c
+|4,39,178,17,1519118078,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  177  7  ~/termp/termp2.c
+|4,39,177,7,1519118066,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519118022,"~/termp/termp2.c"
+-'  190  10  ~/termp/termp2.c
+|4,39,190,10,1519117997,"~/termp/termp2.c"
+-'  189  10  ~/termp/termp2.c
+|4,39,189,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  187  10  ~/termp/termp2.c
+|4,39,187,10,1519117997,"~/termp/termp2.c"
+-'  190  10  ~/termp/termp2.c
+|4,39,190,10,1519117997,"~/termp/termp2.c"
+-'  189  10  ~/termp/termp2.c
+|4,39,189,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  187  10  ~/termp/termp2.c
+|4,39,187,10,1519117997,"~/termp/termp2.c"
+-'  190  10  ~/termp/termp2.c
+|4,39,190,10,1519117997,"~/termp/termp2.c"
+-'  189  10  ~/termp/termp2.c
+|4,39,189,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  187  10  ~/termp/termp2.c
+|4,39,187,10,1519117997,"~/termp/termp2.c"
+-'  190  10  ~/termp/termp2.c
+|4,39,190,10,1519117997,"~/termp/termp2.c"
+-'  189  10  ~/termp/termp2.c
+|4,39,189,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  189  10  ~/termp/termp2.c
+|4,39,189,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  187  10  ~/termp/termp2.c
+|4,39,187,10,1519117997,"~/termp/termp2.c"
+-'  188  10  ~/termp/termp2.c
+|4,39,188,10,1519117997,"~/termp/termp2.c"
+-'  187  10  ~/termp/termp2.c
+|4,39,187,10,1519117997,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519117925,"~/termp/termp2.c"
+-'  193  24  ~/termp/termp2.c
+|4,39,193,24,1519117903,"~/termp/termp2.c"
+-'  195  17  ~/termp/termp2.c
+|4,39,195,17,1519117903,"~/termp/termp2.c"
+-'  192  24  ~/termp/termp2.c
+|4,39,192,24,1519117903,"~/termp/termp2.c"
+-'  194  17  ~/termp/termp2.c
+|4,39,194,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  24  ~/termp/termp2.c
+|4,39,193,24,1519117903,"~/termp/termp2.c"
+-'  195  17  ~/termp/termp2.c
+|4,39,195,17,1519117903,"~/termp/termp2.c"
+-'  192  24  ~/termp/termp2.c
+|4,39,192,24,1519117903,"~/termp/termp2.c"
+-'  194  17  ~/termp/termp2.c
+|4,39,194,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  24  ~/termp/termp2.c
+|4,39,193,24,1519117903,"~/termp/termp2.c"
+-'  195  17  ~/termp/termp2.c
+|4,39,195,17,1519117903,"~/termp/termp2.c"
+-'  192  24  ~/termp/termp2.c
+|4,39,192,24,1519117903,"~/termp/termp2.c"
+-'  194  17  ~/termp/termp2.c
+|4,39,194,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  24  ~/termp/termp2.c
+|4,39,193,24,1519117903,"~/termp/termp2.c"
+-'  195  17  ~/termp/termp2.c
+|4,39,195,17,1519117903,"~/termp/termp2.c"
+-'  192  24  ~/termp/termp2.c
+|4,39,192,24,1519117903,"~/termp/termp2.c"
+-'  194  17  ~/termp/termp2.c
+|4,39,194,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  192  24  ~/termp/termp2.c
+|4,39,192,24,1519117903,"~/termp/termp2.c"
+-'  194  17  ~/termp/termp2.c
+|4,39,194,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  17  ~/termp/termp2.c
+|4,39,193,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  17  ~/termp/termp2.c
+|4,39,193,17,1519117903,"~/termp/termp2.c"
+-'  190  24  ~/termp/termp2.c
+|4,39,190,24,1519117903,"~/termp/termp2.c"
+-'  192  17  ~/termp/termp2.c
+|4,39,192,17,1519117903,"~/termp/termp2.c"
+-'  191  24  ~/termp/termp2.c
+|4,39,191,24,1519117903,"~/termp/termp2.c"
+-'  193  17  ~/termp/termp2.c
+|4,39,193,17,1519117903,"~/termp/termp2.c"
+-'  190  24  ~/termp/termp2.c
+|4,39,190,24,1519117903,"~/termp/termp2.c"
+-'  192  17  ~/termp/termp2.c
+|4,39,192,17,1519117903,"~/termp/termp2.c"
+-'  1  0  ~/termp/termp2.c
+|4,39,1,0,1519117826,"~/termp/termp2.c"
+-'  204  6  ~/termp/termp2.c
+|4,39,204,6,1519117734,"~/termp/termp2.c"
+-'  202  6  ~/termp/termp2.c
+|4,39,202,6,1519117734,"~/termp/termp2.c"
+-'  206  6  ~/termp/termp2.c
+|4,39,206,6,1519117734,"~/termp/termp2.c"
+-'  203  6  ~/termp/termp2.c
+|4,39,203,6,1519117734,"~/termp/termp2.c"
+-'  201  6  ~/termp/termp2.c
+|4,39,201,6,1519117734,"~/termp/termp2.c"
+-'  205  6  ~/termp/termp2.c
+|4,39,205,6,1519117734,"~/termp/termp2.c"
+-'  200  6  ~/termp/termp2.c
+|4,39,200,6,1519117734,"~/termp/termp2.c"
+-'  199  6  ~/termp/termp2.c
+|4,39,199,6,1519117734,"~/termp/termp2.c"
 
 # History of marks within files (newest to oldest):
 
+> ~/termp/termp2.c
+	*	1519123118	0
+	"	180	6
+	^	182	0
+	.	179	6
+	+	175	0
+	+	172	36
+	+	169	39
+	+	168	39
+	+	172	39
+	+	174	39
+	+	167	7
+	+	171	7
+	+	149	3
+	+	175	7
+	+	183	0
+	+	176	21
+	+	177	17
+	+	196	9
+	+	183	19
+	+	144	22
+	+	183	21
+	+	186	12
+	+	184	0
+	+	185	0
+	+	184	36
+	+	206	0
+	+	193	0
+	+	184	8
+	+	183	21
+	+	186	17
+	+	190	0
+	+	189	0
+	+	188	36
+	+	184	10
+	+	176	21
+	+	193	0
+	+	186	25
+	+	185	39
+	+	188	39
+	+	195	0
+	+	194	4
+	+	193	5
+	+	190	40
+	+	191	18
+	+	183	19
+	+	186	25
+	+	190	38
+	+	191	8
+	+	190	40
+	+	193	0
+	+	192	0
+	+	184	39
+	+	185	39
+	+	188	38
+	+	189	39
+	+	188	39
+	+	189	39
+	+	199	0
+	+	190	10
+	+	192	10
+	+	196	38
+	+	197	0
+	+	199	8
+	+	205	0
+	+	179	0
+	+	179	39
+	+	177	7
+	+	179	78
+	+	179	39
+	+	184	38
+	+	188	39
+	+	184	39
+	+	196	1
+	+	204	6
+	+	176	1
+	+	193	5
+	+	176	1
+	+	190	9
+	+	192	9
+	+	193	24
+	+	193	5
+	+	176	0
+	+	194	0
+	+	190	9
+	+	192	10
+	+	190	10
+	+	177	20
+	+	179	0
+	+	179	6
+	+	179	47
+	+	178	6
+	+	179	5
+	+	179	46
+	+	179	39
+	+	179	6
+	+	180	6
+	+	179	0
+	+	182	0
+	+	179	4
+	+	182	4
+	+	180	4
+	+	181	4
+	+	182	4
+	+	179	6
+
 > ~/termp/termp.c
-	*	1519109246	0
-	"	156	13
-	^	156	14
+	*	1519111653	0
+	"	1	0
+	^	145	19
 	.	156	13
 	+	162	25
 	+	142	59

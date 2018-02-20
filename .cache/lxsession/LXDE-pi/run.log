@@ -98,41 +98,36 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:76: Launching lxpanel 
 ** Message: app.vala:76: Launching pcmanfm 
 
-** (lxsession:534): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+** (lxsession:531): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
 
-** (lxsession:534): WARNING **: app.vala:87: Error when launching xscreensaver
+** (lxsession:531): WARNING **: app.vala:87: Error when launching xscreensaver
 ** Message: app.vala:76: Launching point-rpi 
 ** Message: options.vala:107: Create build-in Clipboard
 ** Message: main.vala:442: Check keymap_mode (null)
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-ffOx0ouY88eF/agent.622; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=624; export SSH_AGENT_PID;
-echo Agent pid 624;
-** Message: x-terminal-emulator has very limited support, consider choose another terminal
+SSH_AUTH_SOCK=/tmp/ssh-qNtp80rQxgnQ/agent.623; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=625; export SSH_AGENT_PID;
+echo Agent pid 625;
 ** Message: app.vala:130: point-rpi exit with this type of exit: 0
 ** Message: app.vala:139: Exit normal, don't reload
 ** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 ** Message: Connecting ...
 ** Message: Status changed to down
 
-** (lxpanel:616): CRITICAL **: dhcpcd_open: Inappropriate ioctl for device
+** (lxpanel:617): CRITICAL **: dhcpcd_open: Inappropriate ioctl for device
 Unit pt-device-manager.service could not be found.
 
-** (lxpanel:616): WARNING **: Battery 0 not found
+** (lxpanel:617): WARNING **: Battery 0 not found
 
-** (lxpanel:616): WARNING **: lxpanel: can't load ptbatt plugin
-
-** (zenity:638): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-** (zenity:635): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** (lxpanel:617): WARNING **: lxpanel: can't load ptbatt plugin
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.11.5
-** Message: Status changed to connected
-** Message: wlan0: Associated with SwiPhone
-** Message: wlan0: Configured 172.20.10.7/28
+** Message: Status changed to connecting
 ** Message: eth0: Link is down
+** Message: wlan0: Associated with Robotcode
 ** Message: wlan1: Not associated
 ** Message: wlan0: WPA status connected
 ** Message: wlan0: Received scan results
@@ -140,82 +135,12 @@ Unit pt-device-manager.service could not be found.
 ** Message: wlan1: Received scan results
 ** Message: bt: Name org.bluez unowned on DBus
 ** Message: va: Name org.bluez unowned on DBus
+
+** (zenity:636): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+** (zenity:633): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** Message: wlan0: Configured 192.168.168.79/24
+** Message: Status changed to connected
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from SwiPhone
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with SwiPhone
-** Message: Status changed to connecting
-** Message: wlan0: Configured 172.20.10.7/28
-** Message: Status changed to connected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from SwiPhone
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with SwiPhone
-** Message: Status changed to connecting
-** Message: wlan0: Configured 172.20.10.7/28
-** Message: Status changed to connected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from SwiPhone
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Robotcode
-** Message: Status changed to connecting
-** Message: wlan0: Configured 192.168.168.79/24
-** Message: Status changed to connected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Robotcode
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Robotcode
-** Message: Status changed to connecting
-** Message: wlan0: Configured 192.168.168.79/24
-** Message: Status changed to connected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Robotcode
-** Message: Status changed to disconnected
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Robotcode
-** Message: Status changed to connecting
-** Message: wlan0: Configured 192.168.168.79/24
-** Message: Status changed to connected
 ** Message: wlan0: Received scan results
